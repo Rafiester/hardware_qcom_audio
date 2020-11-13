@@ -7021,7 +7021,7 @@ static int adev_set_parameters(struct audio_hw_device *dev, const char *kvpairs)
         if (strcmp(value, AUDIO_PARAMETER_VALUE_ON) == 0){
             adev->bt_sco_on = true;
         } else {
-            ALOGD("route device to handset/mic when sco is off");
+            ALOGD("route device to handset mic when sco is off");
             adev->bt_sco_on = false;
         }
     }
